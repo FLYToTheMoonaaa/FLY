@@ -101,7 +101,7 @@ def process_address(address_queue,line_number):
     tx_hash = web3.eth.send_raw_transaction(signed_txn.raw_transaction)
 
     print(f"交易哈希: {tx_hash.hex()}")
-    print(address_queue)
+  
 
 def shuffle_lines_in_txt(file_path, output_file=None):
     try:
