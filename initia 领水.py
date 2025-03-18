@@ -5,9 +5,6 @@ import threading
 import queue
 import time
 from fake_useragent import UserAgent
-from web3 import Web3
-from eth_account import Account
-from eth_account.messages import encode_defunct
 import time
 import json
 import secrets
@@ -173,12 +170,10 @@ def main1(path, start_line=1):
         print(f"处理文件 {keys_file_path} 时出错: {e}")
 
 def main():
-    # file=r"C:\Users\Administrator\Desktop\yihhe.txt"
-    # 使用示例
+ 
     file_path = r'C:\Users\Administrator\Desktop\复习题 2\initia 地址.txt'  # 替换为你的文件路径
-    # output_file = r'C:\Users\Administrator\Desktop\复习题 2\in子.txt'  # 可选，保存打乱后的内容到新文件
-    # shuffle_lines_in_txt(file_path, output_file)
-    # file = output_file
+
+   
 
 
     # 配对文件和变量
@@ -189,7 +184,7 @@ def main():
 
 
 if __name__ == "__main__":
-    while True:
+    attempts = 0
+    while attempts < 10:
         main()
-        time.sleep(86400)
 
