@@ -184,7 +184,7 @@ def main():
 
 
 if __name__ == "__main__":
-    attempts = 0
-    while attempts < 10:
+    while True:
         main()
+        time.sleep(28800)
 
