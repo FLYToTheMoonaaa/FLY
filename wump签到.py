@@ -6,9 +6,6 @@ import threading
 import queue
 import time
 from fake_useragent import UserAgent
-from web3 import Web3
-from eth_account import Account
-from eth_account.messages import encode_defunct
 import time
 import json
 import secrets
