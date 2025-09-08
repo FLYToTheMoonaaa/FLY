@@ -95,7 +95,7 @@ def process_address(address_queue,line_number):
 
 
     message = f'''of.apr.io wants you to sign in with your Ethereum account:
-0x74db2c1a066E3f4EaABc5d4A6D18eeE7b3cdbc88
+{adress}
 
 Please sign this message to verify your account ownership.
 
