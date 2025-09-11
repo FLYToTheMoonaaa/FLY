@@ -60,8 +60,8 @@ def process_address(address_queue,line_number):
         return signed_message
 
     proxies = {
-        "http": "91778848-dat:ymuckhxz@gw.cloudbypass.com:1288",
-        "https": "91778848-dat:ymuckhxz@gw.cloudbypass.com:1288"
+        "http": "9177gw.cloudbypass.com:1288",
+        "https": "917@gw.cloudbypass.com:1288"
     }
 
     url = f"https://wallet-collection-api.apr.io/auth/nonce/{adress}"
